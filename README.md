@@ -9,6 +9,7 @@ This project is in _python_ and it parses a lookup table that is provided in _cs
 * As it could be gather, the only library outside of common python std libraries used is `tabulate`.
 
 ## Installing and running the application
+* All commands are to be executed from project-root folder.
 * There are two options (only one to be passed) that can be passed - `['-l', '--lookup_file LOOKUP_FILE']` and `['-g', '--generate_lookup_file']`.
 * The `-l` option takes a parameter, which is the path of fully qualified lookup file in csv format, that is to be parsed. All results will be written in `output` folder just under the project root.
 * The `-g` option generates a file of 10k entries with limited set of labels and protocols. More details can be found in `src/lookup_generator.py`. This in-turn, can be passed onto `-l` if need be to see the output.
