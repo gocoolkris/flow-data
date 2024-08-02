@@ -15,9 +15,10 @@ This project is in _python_ and it parses a lookup table that is provided in _cs
 
 
 ### Sample commands
-* As part of the repo, there exists `test/sampledata.csv`. So, if we are to run the stats write functionality, we would execute from the root - `python3 main.py -l test/sampledata.csv`.
-* If you want to see the generation of lookup file functionality, you could run `python3 main.py -g` from project root. It would write a sample file to `test` folder. You can then use the generated file to pass to lookup functionality.
-* The output file will be usually of the format `<input-name>-stats.txt`, if the lookup file is `<input-name>.csv`.
+* As part of the repo, there exists `test/sampledata.csv`. So, if we are to run the stats write functionality, we would execute from the root - `python3 main.py -l test/sampledata.csv`. It will create an `output` folder and the results will
+be inside that folder. The output file will be usually of the format `<input-name>-stats.txt`, if the lookup file is `<input-name>.csv`.
+* If you want to see the generation of lookup file functionality, you could run `python3 main.py -g` from project root. It would write a sample file to `test` folder with an auto-generated name starting with `tmp` as prefix. You can then 
+use the generated file to pass to lookup functionality.
 
 
 ## Stated Requirements
